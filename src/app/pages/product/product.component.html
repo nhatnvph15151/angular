@@ -5,13 +5,10 @@
             <td>{{product.name}}</td>
             <td>{{product.price}}</td>
             <td>
-                <button (click)="ShowDetail(product.id)">
+                <button>
                 Info
             </button>
         </td>
         </tr>
     </tbody>
 </table>
-<div *ngIf="productDetail">
-    {{productDetail.name}}
-</div>

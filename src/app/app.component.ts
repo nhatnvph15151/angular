@@ -1,5 +1,6 @@
 import { ProductType } from './model/Product';
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -27,4 +28,7 @@ export class AppComponent {
       status: true
     }
   ]
+  onHandleAdd(product:any){
+    this.productList.push(product)
+  }
 }
