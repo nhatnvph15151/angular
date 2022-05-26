@@ -8,16 +8,24 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit {
-  productList!: any;
-  productDetail!: ProductType ;
+  productList!: ProductType[];
   constructor(private productService: ProductService ) {
-  this.showProduct()
+
   }
   ngOnInit(): void {
+    this.showProduct()
   }
   showProduct(){
     this.productService.getProducts().subscribe(data => {
       this.productList = data
     })
+  }
+  onRemoveItem(id:number){
+    const confirm = window.confirm('ban co muon xoa khong')
+    if(confirm){
+      this.productService.removeProduct(id).subscribe(()=>{
+        this.productList = this.productList.filter(item => item.id !== id);
+      })
+    }
   }
 }

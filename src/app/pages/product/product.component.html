@@ -4,10 +4,12 @@
             <td>{{i+ 1}}</td>
             <td>{{product.name}}</td>
             <td>{{product.price}}</td>
+            
             <td>
-                <button>
+            <button>
                 Info
             </button>
+            <button class="btn btn-primary" (click)="onRemoveItem(product.id)">Remove</button>
         </td>
         </tr>
     </tbody>
