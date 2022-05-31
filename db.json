@@ -1,24 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Product A",
-      "price": 200,
-      "status": false
-    },
-    {
-      "id": 2,
-      "name": "Product B",
-      "price": 300,
-      "status": false
-    },
-    {
-      "id": 1,
-      "name": "Product C",
-      "price": 400,
-      "status": false
-    },
-    {
       "name": "dsadsad",
       "price": "0sadasd",
       "id": 3
@@ -29,9 +11,47 @@
       "id": 4
     },
     {
-      "name": "daad",
-      "price": "012312",
+      "name": "asdad",
+      "price": "0dasdsa",
       "id": 5
+    },
+    {
+      "name": "asdad",
+      "price": "012312312",
+      "id": 6
+    },
+    {
+      "name": "hi",
+      "price": "12312",
+      "id": 7
+    },
+    {
+      "name": "dsadsda update",
+      "price": "0123123",
+      "status": true,
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "abc@gmail.com",
+      "password": "123456"
+    },
+    {
+      "email": "nnhat1802@gmail.com",
+      "password": "$2a$10$XRugYCIvV1pGDyNPE2nr7OQkv0.mk/QzXJkaCMgG1xHXRzny5ugs6",
+      "id": 2
+    },
+    {
+      "email": "nnhat180sdas2@gmail.com",
+      "password": "$2a$10$t5pORbZeCu42lrcEEdVr0.sCCyvFTNtEehciTF7g4Dd/j2ecRnMPq",
+      "id": 3
+    },
+    {
+      "email": "nnhat180sddsadas2@gmail.com",
+      "password": "$2a$10$bmFxckLON66ZTClh9yuJaec3sFQHUkmmkFFIJGtQW2KeX0kdN9ok2",
+      "id": 4
     }
   ]
 }

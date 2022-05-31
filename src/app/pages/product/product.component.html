@@ -9,7 +9,8 @@
             <button>
                 Info
             </button>
-            <button class="btn btn-primary" (click)="onRemoveItem(product.id)">Remove</button>
+            <button routerLink="/edit/{{product.id}}">edit</button>
+            <button (click)="onRemoveItem(product.id!)">remove</button>
         </td>
         </tr>
     </tbody>

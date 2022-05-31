@@ -1,3 +1,4 @@
+import { ProductType } from './../model/Product';
 import { ProductService } from './../services/product.service';
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -8,10 +9,10 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./product-add.component.css']
 })
 export class ProductAddComponent implements OnInit {
-@Output() onAdd = new EventEmitter()
-product :{name:string , price : number} = {
-  name: "",
-  price :0 
+product :ProductType= {
+  name:"",
+  price :0 ,
+  status: true
 }
   constructor(
     private productService:ProductService,
@@ -20,14 +21,15 @@ product :{name:string , price : number} = {
     ) { }
 
   ngOnInit(): void {
-
+  
   }
+
   onSubmit(){
     this.productService.addProduct(this.product).subscribe(data =>{
       console.log('them thanh cong') 
       setTimeout(()=>{
         // redirect về product list
-        this.router.navigateByUrl('/product')
+        this.router.navigateByUrl('')
       },2000)
     })
   }

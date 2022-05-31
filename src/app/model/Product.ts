@@ -1,6 +1,6 @@
 export interface ProductType  {
-    id:  Number,
-    name: String,
-    price: Number ,
+    id?:number,
+    name: string,
+    price: number ,
     status : boolean
 }

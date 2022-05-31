@@ -20,7 +20,7 @@ export class ProductComponent implements OnInit {
       this.productList = data
     })
   }
-  onRemoveItem(id:number){
+  onRemoveItem(id: number){
     const confirm = window.confirm('ban co muon xoa khong')
     if(confirm){
       this.productService.removeProduct(id).subscribe(()=>{

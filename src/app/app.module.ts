@@ -9,7 +9,9 @@ import { ProductComponent } from './pages/product/product.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { ProductAddComponent } from './product-add/product-add.component';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { ProductEditComponent } from './product-edit/product-edit.component';
+import { SignUpComponent } from './sign-up/sign-up.component'
 
 
 @NgModule({
@@ -19,6 +21,8 @@ import {HttpClientModule} from '@angular/common/http'
     ProductComponent,
     FooterComponent,
     ProductAddComponent,
+    ProductEditComponent,
+    SignUpComponent,
   ],
   imports: [
     BrowserModule,
