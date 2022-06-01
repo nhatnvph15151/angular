@@ -1,12 +1,7 @@
 {
   "products": [
     {
-      "name": "dsadsad",
-      "price": "0sadasd",
-      "id": 3
-    },
-    {
-      "name": "dsadsad",
+      "name": "dsadsad1231oke oke",
       "price": "0sadasd",
       "id": 4
     },
@@ -21,15 +16,22 @@
       "id": 6
     },
     {
-      "name": "hi",
-      "price": "12312",
-      "id": 7
-    },
-    {
       "name": "dsadsda update",
       "price": "0123123",
       "status": true,
       "id": 8
+    },
+    {
+      "name": "vannhat1252",
+      "price": "0123123",
+      "status": true,
+      "id": 9
+    },
+    {
+      "name": "asdsa",
+      "price": "3213213",
+      "status": true,
+      "id": 10
     }
   ],
   "users": [
@@ -52,6 +54,11 @@
       "email": "nnhat180sddsadas2@gmail.com",
       "password": "$2a$10$bmFxckLON66ZTClh9yuJaec3sFQHUkmmkFFIJGtQW2KeX0kdN9ok2",
       "id": 4
+    },
+    {
+      "email": "vannhat1252@gmail.com",
+      "password": "$2a$10$uxBhdlhIPpV8e.M8.KCQZex1wair6mZ0rkb/UpWfVz06w/Tf8ure.",
+      "id": 5
     }
   ]
 }

@@ -30,6 +30,11 @@ export class ProductEditComponent implements OnInit {
     }
   }
   onSubmit() {
-   
+   const id = +this.route.snapshot.paramMap.get('id')!;
+   if(id){
+     this.productService.updateProduct(this.product).subscribe(data =>{
+       this.router.navigateByUrl('')
+     })
+   }
   }
 }

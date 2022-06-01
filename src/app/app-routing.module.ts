@@ -1,3 +1,4 @@
+import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { ProductComponent } from './pages/product/product.component';
 import { NgModule } from '@angular/core';
@@ -11,7 +12,8 @@ const routes: Routes = [
   { path: "product", component: ProductComponent },
   { path: "add", component: ProductAddComponent },
   { path: "edit/:id", component: ProductEditComponent },
-  {path:"signup",component:SignUpComponent}
+  { path: "signup", component: SignUpComponent },
+  { path: "signin", component: SignInComponent }
 ];
 
 @NgModule({

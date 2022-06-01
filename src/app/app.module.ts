@@ -11,7 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { ProductAddComponent } from './product-add/product-add.component';
 import {HttpClientModule} from '@angular/common/http';
 import { ProductEditComponent } from './product-edit/product-edit.component';
-import { SignUpComponent } from './sign-up/sign-up.component'
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { SignInComponent } from './sign-in/sign-in.component'
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { SignUpComponent } from './sign-up/sign-up.component'
     ProductAddComponent,
     ProductEditComponent,
     SignUpComponent,
+    SignInComponent,
   ],
   imports: [
     BrowserModule,
